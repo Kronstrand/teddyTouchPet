@@ -16,7 +16,9 @@ In our case we connect it to the analog pin A0
 Connect the LED strips by 3 wires: 
   - GND -> GND
   - +5v -> 5v5
-  - DO  -> 6 
+  - DO  -> 6
+  
+  ![](tutorial_images/Internal.png?raw=true)
 
 Download appropriate APIs
 
@@ -31,3 +33,5 @@ Adjust the last number of the following code to achieve that.
 ```float loweredActivity = activity - 1000;```
 
 You pet should now be ready for play.
+
+![](tutorial_images/teddy.png?raw=true)
