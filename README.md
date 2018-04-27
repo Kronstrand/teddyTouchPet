@@ -5,7 +5,7 @@ A prototype of an interactive digital teddybear using physical touch as sensor i
 What you need:
   - Arduino. For this tutrial, an arduino uno R3 is used.
   - Piece of tinfoil
-  - a teddy bear
+  - A teddy bear
   - LED strips lights
   - [FastLED API](https://github.com/FastLED/FastLED)
   - [AnalogTouch API](https://github.com/NicoHood/AnalogTouch)
@@ -20,13 +20,13 @@ Connect the LED strips by 3 wires:
 
 Download appropriate APIs
 
-Download the sourcecode and upload the source code to your arduino.
+Download and then upload the source code to your arduino.
 
 Cut open your cute teddy bear and mount it with with the rigged ardunio.
 Make sure to align the tinfoil with the surface of the teddybear you wish to be touch sensible.
 
-In order for it to work, you need to calibrate touchinput to have an baseline around 0.
-Adjust the last number of the following code to achive that.
+In order for it to work, you need to calibrate touch input to have an baseline around 0.
+Adjust the last number of the following code to achieve that.
 
 ```float loweredActivity = activity - 1000;```
 
